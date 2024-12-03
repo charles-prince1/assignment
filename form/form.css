@@ -1,0 +1,88 @@
+
+body {
+    background-color: #000000;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form h2 {
+    color: blue;
+    font-weight: 500px;
+    text-align: center;
+    font-size: 30px;
+}
+div {
+    position: relative;
+    width: 380px;
+    height: 800px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    border: #463f3f 5px solid;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 0px 1px 10px rgba(255, 8, 8, 1);
+    top: 10px;
+    bottom: 40%;
+    right: 40%;
+    left: 40%;
+    margin-bottom: 10px;
+}
+div:hover {
+    box-shadow: 0px 1px 10px rgba(8, 8, 225, 1);
+    transition: 2s;
+    background-color: blueviolet;
+}
+div form {
+    background: #000000;
+    padding: 10px;
+    z-index: 2;
+    position: relative;
+    border-radius: 10px;
+}
+select {
+    width: 50%;
+    border-radius: 10px;
+    height: 29px;
+}
+input[type=text], input[type=number], input[type=password], input[type=datetime], input[type=email] {
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+}
+input[type=submit] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(36, 35, 35);
+    color: blue;
+    transition: background-color 9s, color 5s;
+}
+.class {
+    color: blue;
+}
+input[type=submit]:hover {
+    background-color: blue;
+    color: black;
+}
+.legends {
+    text-align: center;
+    color: rgb(49, 13, 255);
+    transition: 2s;
+}
+label {
+    color: blue;
+}
+.legends:hover {
+    opacity: 0.8;
+    color: red;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+footer:hover {
+    color: gold;
+    transition: 2s;
+}

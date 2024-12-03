@@ -1,0 +1,45 @@
+body {
+    background-color: #1c1c1c;
+}
+table {
+    width: 100%;
+    min-height: 70vh;
+    border: 2px rgb(245, 245, 255) dashed;
+    background-color: black;
+    color: rgb(0, 0, 255);
+}
+caption {
+    font-size: 40px;
+    color: blue;
+}
+tr th, td {
+    border: solid 2px white;
+    text-align: center;
+     border-right: none;
+}
+tr th {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+tr th:hover {
+    color: rgb(221, 221, 255);
+}
+footer {
+    text-align: center;
+    color: rgb(0, 17, 255);
+    font-size: 19px;
+}
+.food {
+    font-size: 19px;
+   
+}
+.food:hover {
+    font-size: 20px;
+    transition: 1s;
+    color: #fff3ff;
+    border: blue solid 3px;
+}
+.Num:hover {
+    border: blue solid 3px;
+    color: rgb(191, 191, 255);
+}

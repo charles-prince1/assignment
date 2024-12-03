@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creat an account</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div>
+        <form>
+            <h2>create an account</h2>
+            <P>
+                <label for="FirstName">First name:</label>
+                <input type="text" id="FirstName" placeholder="enter first name" required="required">
+            </P>
+            <P>
+                <label for="LastName">Last name:</label>
+                <input type="text" name="LastName" id="LastName" placeholder="enter last name" required="required">
+            </P>
+            <P>
+                <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" id="email" placeholder="enter email address" required="required">
+            </P>
+            <P>
+                <label for="phoneNumber">Phone no:</label>&nbsp;
+                <input type="number" name="email" id="phoneNumber" placeholder="enter phone number" required="required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </P>
+            <P>
+                <label for="Occupation">Occupation:</label>&nbsp;
+                <input type="text" name="Occupation" id="Occupation" placeholder="enter your occupation" required="required">
+            </P>
+            <p>
+                <label for="DOB">Date of birth</label>
+                <input type="datetime" id="DOB" placeholder="mm/dd/yy" required>
+            </p>
+            <p>
+                <legend class="class">class</legend>
+                <select name="class" id="class">
+                        
+                    <option value="class"name="class">Jss1</option>
+                    <option value="class"name="class">Jss2</option>
+                    <option value="class"name="class">Jss3</option>
+                    <option value="class"name="class">Ss1</option>
+                    <option value="class"name="class">Ss2</option>
+                    <option value="class"name="class">Ss3</option>
+                </select>
+            </p>
+            <p>
+                <legend class="legends">Gender</legend>
+                <input type="radio" name="gender" id="gender">
+                <label for="Male">Male</label>
+            </p>
+            <p>
+                <input type="radio" name="gender" id="gender">
+                <label for="Female">Female</label>
+            </p>
+            
+            <p>
+                <legend class="legends">Hobbies</legend>
+                <label for="hobby">Football</label>
+                <input type="checkbox" name="Hobbies" id="hobby"><br>
+                <label for="game">Gaming</label>
+                <input type="checkbox" name="Gaming" id="game"><br>
+                <label for="movie">Movie</label>
+                <input type="checkbox" name="Movie" id="movie"><br>
+                <label for="sleeping">Sleeping</label>
+                <input type="checkbox" name="Sleeping" id="sleeping">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="Password" id="password" required>
+            </p>
+            <input type="submit" value="submit">
+        </form>
+        <footer class="me">&lt;&lt;&lt;&copy;charles&gt;&gt;&gt;</footer>
+    </div>
+</body>
+</html>
