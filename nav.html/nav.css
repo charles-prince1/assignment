@@ -1,4 +1,20 @@
 .carousel slide {
     border: black 3px black;
     background-color: blue;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    bottom: 100px;
+    width: 50%;
+}
+.carousel-inner img {
+    height: 300px;
+    width: 100%;
+}
+body {
+    background-color: black;
+    display: contents;
+    align-items: center;
+    width: 50%;
 }
